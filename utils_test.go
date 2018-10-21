@@ -6,5 +6,9 @@ import (
 )
 
 func TestOne(t *testing.T) {
-	fmt.Println(string([]byte{65}))
+	n := 1
+	for i := 1 ; i <= 25; i++ {
+		n *= i
+	}
+	fmt.Println(n)
 }
