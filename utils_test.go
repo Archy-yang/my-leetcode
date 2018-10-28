@@ -12,3 +12,12 @@ func TestOne(t *testing.T) {
 	}
 	fmt.Println(n)
 }
+
+func TestTranIntListToNode(t *testing.T) {
+	re := tranIntListToNode([]int{1,2,3,4})
+
+	for re != nil {
+		fmt.Println(re)
+		re = re.Next
+	}
+}
