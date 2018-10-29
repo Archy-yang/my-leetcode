@@ -22,8 +22,3 @@ func isIsomorphic(s string, t string) bool {
 
 	return true
 }
-
-
-func isIsomorphic1(s string, t string) bool {
-
-}
