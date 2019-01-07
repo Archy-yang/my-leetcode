@@ -13,11 +13,11 @@ func wordPattern(pattern string, str string) bool {
 
 	for i, b := range pattern {
 		pi := int(b) - int('a')
-		if si, ok := sm[strs[i]]; (!ok && si > 0)|| si != pm[pi] {
+		if si, ok := sm[strs[i]]; (!ok && si > 0) || si != pm[pi] {
 			return false
 		}
-		pm[pi] = i+1
-		sm[strs[i]] = i+1
+		pm[pi] = i + 1
+		sm[strs[i]] = i + 1
 	}
 
 	return true
