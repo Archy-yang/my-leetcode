@@ -6,5 +6,5 @@ import (
 )
 
 func TestCombinationSum(t *testing.T) {
-	fmt.Println(combinationSum([]int{2,3,5}, 8))
+	fmt.Println(combinationSum2([]int{10,1,2,7,6,1,5}, 8))
 }
