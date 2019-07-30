@@ -24,7 +24,7 @@ func TestHasPathSum(t *testing.T) {
 	for _, test := range hasPathSumTests {
 		re := hasPathSum(test.Node, test.Sum)
 		if re != test.Result {
-			t.Errorf("failed!.%q, act: %v", test, re)
+			t.Errorf("failed!.%v, act: %v", test, re)
 		}
 	}
 

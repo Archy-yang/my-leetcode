@@ -35,7 +35,7 @@ func TestIsBalanced (t *testing.T) {
 		re := isBalanced(td.Node)
 
 		if re != td.Result {
-			t.Errorf("error: %q, act: $v", td, re)
+			t.Errorf("error: %v, act: %v", td, re)
 		}
 	}
 }

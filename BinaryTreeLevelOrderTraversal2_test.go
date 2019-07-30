@@ -42,7 +42,7 @@ func Test_levelOrderBottom(t *testing.T) {
 		re := levelOrderBottom(te.node)
 
 		if len(re) != len(te.order) {
-			t.Errorf("error: %q", te)
+			t.Errorf("error: %v", te)
 		}
 	}
 }

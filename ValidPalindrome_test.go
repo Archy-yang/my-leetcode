@@ -33,7 +33,7 @@ func TestIsPalindrome(t *testing.T) {
 		re := isPalindrome(test.Str)
 
 		if re != test.Result {
-			t.Errorf("failed! %q, act %v", test, re)
+			t.Errorf("failed! %v, act %v", test, re)
 		}
 	}
 }
